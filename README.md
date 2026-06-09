@@ -27,7 +27,7 @@ JavaScript:
 
 ```lua
 {
-  "tickloop/solaris.nvim",
+  "Tickloop/solaris.nvim",
   lazy = false,
   priority = 1000,
   opts = {},
