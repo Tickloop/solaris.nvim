@@ -17,7 +17,7 @@ return {
   dark5 = "#5b6b80",
   fg = "#bec6d0",
   fg_dark = "#a0acbb",
-  fg_muted = "#c4c4c4",
+  fg_muted = "#8d8d8d",
   fg_gutter = "#313945",
   green = "#00a884",
   green1 = "#38c7bd",
