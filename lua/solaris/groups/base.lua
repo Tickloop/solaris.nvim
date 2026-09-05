@@ -108,14 +108,14 @@ function M.get(c, opts)
     LspCodeLens                 = { fg = c.comment },
     LspInlayHint                = { bg = Util.blend_bg(c.blue7, 0.1), fg = c.dark3 },
     LspInfoBorder               = { fg = c.border_highlight, bg = c.bg_float },
-    ComplHint                   = { fg = c.terminal_black },
+    ComplHint                   = { fg = c.fg_muted },
 
     -- Diagnostics
     DiagnosticError             = { fg = c.error },
     DiagnosticWarn              = { fg = c.warning },
     DiagnosticInfo              = { fg = c.info },
     DiagnosticHint              = { fg = c.hint },
-    DiagnosticUnnecessary       = { fg = c.terminal_black },
+    DiagnosticUnnecessary       = { fg = c.fg_muted },
     DiagnosticVirtualTextError  = { bg = Util.blend_bg(c.error, 0.1), fg = c.error },
     DiagnosticVirtualTextWarn   = { bg = Util.blend_bg(c.warning, 0.1), fg = c.warning },
     DiagnosticVirtualTextInfo   = { bg = Util.blend_bg(c.info, 0.1), fg = c.info },

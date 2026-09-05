@@ -1,6 +1,6 @@
 ---@class Palette
 return {
-  bg = "#111418",
+  bg = "#000000",
   bg_dark = "#0c0f11",
   bg_dark1 = "#080a0c",
   bg_highlight = "#222830",
@@ -17,6 +17,7 @@ return {
   dark5 = "#5b6b80",
   fg = "#bec6d0",
   fg_dark = "#a0acbb",
+  fg_muted = "#c4c4c4",
   fg_gutter = "#313945",
   green = "#00a884",
   green1 = "#38c7bd",

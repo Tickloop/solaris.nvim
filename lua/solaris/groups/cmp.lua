@@ -8,7 +8,7 @@ function M.get(c, opts)
   local ret = {
     CmpDocumentation       = { fg = c.fg, bg = c.bg_float },
     CmpDocumentationBorder = { fg = c.border_highlight, bg = c.bg_float },
-    CmpGhostText           = { fg = c.terminal_black },
+    CmpGhostText           = { fg = c.fg_muted },
     CmpItemAbbr            = { fg = c.fg, bg = c.none },
     CmpItemAbbrDeprecated  = { fg = c.fg_gutter, bg = c.none, strikethrough = true },
     CmpItemAbbrMatch       = { fg = c.blue1, bg = c.none },
